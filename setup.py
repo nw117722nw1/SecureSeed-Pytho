@@ -1,18 +1,15 @@
-from setuptools import setup, find_packages
+from setuptools import setup
 
 setup(
-    name="seed",
-    version="1.0.0",
-    author="Nwal",
-    author_email="roos1100110022r@gmail.com",
-    description="High-entropy seed generator using 10 entropy sources for cryptography and PRNG",
-    url="https://github.com/nw117722nw1/SecureSeed-Python",
-    packages=find_packages(),
-    install_requires=["psutil"],
-    python_requires=">=3.7",
+    name='seed',
+    version='0.1',
+    py_modules=['seed'],
+    author='Nwal',
+    author_email='roos1100110022r@gmail.com',
+    description='Generate a strong random seed from multiple sources',
     classifiers=[
-        "Programming Language :: Python :: 3",
-        "License :: OSI Approved :: MIT License",
-        "Operating System :: OS Independent",
+        'Programming Language :: Python :: 3',
+        'Operating System :: OS Independent',
     ],
+    python_requires='>=3.8',
 )
