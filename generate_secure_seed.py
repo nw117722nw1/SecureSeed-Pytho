@@ -1,7 +1,7 @@
 import os, time, uuid, psutil, base64, hashlib, random, getpass, os as system_os
 
 
-def generate_secure_seed(bits=256, count=1):
+def generate_secure1_seed(bits=256, count=1):
     if bits not in (128, 256, 512):
         raise ValueError("Bits must be 128, 256, or 512")
 
@@ -56,6 +56,6 @@ def generate_secure_seed(bits=256, count=1):
 
 
 if __name__ == "__main__":
-    for s in generate_secure_seed(512, 5):
+    for s in generate_secure1_seed(512, 5):
         print(s)
 
