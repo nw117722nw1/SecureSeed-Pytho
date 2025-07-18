@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 
 setup(
-    name="secure-seed",
+    name="generate_secure_seed",
     version="1.0.0",
     author="Nwal",
     author_email="roos1100110022r@gmail.com",
